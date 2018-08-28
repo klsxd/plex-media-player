@@ -398,7 +398,6 @@ void KonvergoWindow::updateMainSectionSettings(const QVariantMap& values)
 
           if (m_webDesktopMode)
             SystemComponent::Get().setCursorVisibility(true);
-          updateWindowState();
         });
       }
     }
